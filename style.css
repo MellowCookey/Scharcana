@@ -172,6 +172,10 @@ hr.divider {
 .btn-primary:hover { background: #e8c040; }
 .btn-outline { background: transparent; color: var(--text-muted); border: 1px solid var(--border-light); }
 .btn-outline:hover { color: var(--text); border-color: var(--accent); }
+.btn-download,
+a.btn-download { background: #2a6e3f; color: #d4f0df !important; border: 1px solid #3d9e5c; text-decoration: none; }
+.btn-download:hover,
+a.btn-download:hover { background: #34894e; border-color: #4db870; }
 
 /* ── Infobox ────────────────────────────────────────────────────── */
 .infobox {
@@ -197,7 +201,8 @@ hr.divider {
   padding: 4px 12px; margin-bottom: 22px;
 }
 .hero p { font-size: 1.05rem; color: var(--text-muted); max-width: 600px; margin-bottom: 32px; }
-.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; width: 100%; }
+.hero-btns .btn { flex: 1; text-align: center; min-width: 160px; }
 
 /* Feature-Grid */
 .feature-grid {
